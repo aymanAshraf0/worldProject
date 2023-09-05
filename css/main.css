@@ -1,0 +1,125 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    background-image:url(https://cdn.stocksnap.io/img-thumbs/960w/hong%20kong-city_RRLLIP25F3.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+}
+.con{
+    width: 70%;
+    height: 50vh;
+    color: white;
+    background-color: rgba(127, 195, 255, 0.363);
+    padding-top: 4%;
+    border-radius: 55px;
+    transition: background-color 1s;
+   
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.con a{
+    border-radius: 15px;
+}
+
+
+.con:hover{
+    background-color: rgba(127, 195, 255, 0.773);
+   color: black;
+}
+
+.con p{
+    color: black; 
+    font-weight: bolder;
+}
+
+.cont{
+    width: 70%;
+    height: 50vh;
+    color: white;
+    background-color: rgba(127, 195, 255, 0.363);
+    padding-top: 4%;
+    border-radius: 55px;
+    transition: background-color 1s;
+    margin-bottom: 10%;
+}
+.cont:hover{
+    background-color: rgba(127, 195, 255, 0.773);
+    color: black;
+}
+.cont p{
+    margin-top: 10%;
+    color: black;
+    font-weight: bolder;
+}
+.row1{
+    margin-bottom: 10%;
+   
+}
+ .row1 img{
+    filter: brightness(0.5);
+ }
+
+ .row1 h1{
+    background-color: rgba(127, 195, 255, 0.363);
+    border-radius: 10%;
+ }
+
+ .under-imge{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    background-color:rgba(127, 195, 255, 0.363); 
+    border-radius: 10%;
+    transition: transform 1s;
+ }
+
+ .under-imge:hover{
+    background-color: rgba(127, 195, 255, 0.773);
+    color: black;
+transform:scale(1.1);
+ }
+ .row2 img{
+filter: brightness(0.65);
+width: 80%;
+ }
+ .row2 img:hover{
+    filter: brightness(0.5);
+    transition: filter 1s;
+ }
+ .row2 h2{
+    color: white;
+ }
+ .row2{
+    font-size: larger;
+    font-weight: bold;
+ }
+ .up-us{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    background-color:rgba(127, 195, 255, 0.363); 
+    border-radius: 10%;
+    transition: transform 1s;
+    
+ }
+ form{
+    width: 70%;
+    
+ }
+
+ .for-form{
+    background-color: rgba(0, 0, 0, 0.663);
+    border-radius: 20px;
+ }
+ .for-form:hover{
+    background-color: black;
+    transition:background-color 1s ;
+ }
